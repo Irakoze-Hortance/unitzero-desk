@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      SECRET_KEY: ${SECRET_KEY:?set SECRET_KEY in .env (see .env.example)}
+      ACCESS_TOKEN_MINUTES: ${ACCESS_TOKEN_MINUTES:-480}
+    volumes:
+      - dbdata:/data        # SQLite file survives restarts/rebuilds
+    restart: unless-stopped
+
+volumes:
+  dbdata:
