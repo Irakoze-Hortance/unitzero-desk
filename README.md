@@ -60,7 +60,8 @@ Created from `seed/users.json` (passwords are stored hashed). Seeding creates **
 | Email | Password | Role |
 |---|---|---|
 | `admin@example.com` | `admin123` | admin |
-| *(add the other accounts from `seed/users.json`: at least one client and one operator)* | | |
+| `ops1@examplw.com` | `ops123` | operations |
+| `client-a@example.com` | `client123` | client |
 
 ## Import episodes
 

@@ -30,12 +30,9 @@ Left out: unassigning episodes, request edit/cancel, pagination on `/requests`, 
 
 With two more days: Postgres + Alembic; unassign + audit trail of imports; SSE for live status updates (stretch); browser tests for the frontend; login rate limiting.
 
-## 3. Something that went wrong
 
-- **No Authorize button in `/docs`.** I read the `Authorization` header as a plain parameter, so OpenAPI had no security scheme. Diagnosed by inspecting `app.openapi()["components"]["securitySchemes"]` (empty). Fixed with `HTTPBearer`, which also documents the scheme.
-- **`{"detail":"Not Found"}` at `/`.** The static mount was correct; the 404 came from `index.html` missing (or a stale server on the port). I reproduced it by removing the file, then added a startup log line that says whether the UI directory is found, plus a test that loads `/`, `/styles.css` and `/app.js`.
 
-## 4. Security
+## 3. Security
 
 - Passwords: scrypt with a per-user random salt, constant-time compare, a dummy hash for unknown emails so response time does not reveal which accounts exist. Seed passwords are hashed, never stored plain.
 - Tokens: HS256 JWT, 8h expiry (configurable), `exp` and `sub` required. `SECRET_KEY` comes from the environment and the app refuses to start if it is missing or under 32 characters. The user row is re-read on every request, so deactivation and role changes take effect immediately.
@@ -45,13 +42,13 @@ With two more days: Postgres + Alembic; unassign + audit trail of imports; SSE f
 1. *Credential attacks and token theft.* There is no rate limiting on `/login`, and the token sits in `sessionStorage`, so any XSS would hand over an account. JWTs cannot be revoked before expiry. Fix: rate limit / lockout, short-lived tokens with refresh, httpOnly cookies with CSRF protection.
 2. *Unbounded input and authorization drift.* `/import` has no size limit (memory and time DoS), and per-object checks live in service code, so a new endpoint that forgets `get_request` leaks data. Fix: body size limits and streaming import; a central authorization layer with tests that enumerate every route against every role.
 
-## 5. Scale
+## 4. Scale
 
 - **Analytics at 5 million episodes:** all aggregation runs in the database. `(recorded_at, robot_id)` serves the per-day/per-robot query as an index scan, so cost grows with the rows in the date range, not the table. Top-5-good-tasks has no good index for a date range, so a wide range scans a lot. Fix: partial index on `quality='good'` or a nightly rollup table (day, robot, task, quality, count); on Postgres use `percentile_cont` for the median and partition `episodes` by month.
 - **10× users:** SQLite has a single writer, so the first break is concurrent writes. Move to Postgres with a pool and several workers; scrypt makes logins CPU-heavy, so cap login rate.
 - **100× episodes:** the import breaks first (row-by-row inserts in Python). Use `COPY` into a staging table, then `INSERT ... ON CONFLICT DO NOTHING`, with a background job and progress reporting. The episode list uses `LIMIT/OFFSET`, which degrades at depth; switch to keyset pagination.
 - **If production used Postgres:** swap `date(:b,'+1 day')`, `julianday` and `substr` for native date types and operators, use `ON CONFLICT`, and replace the hand-rolled migration runner with Alembic.
 
-## 6. AI tooling
+## 5. AI tooling
 
-I used Claude (Anthropic) as a coding assistant for scaffolding the API, the service/controller refactor, tests, Docker files, the frontend, and drafting these notes. I reviewed and ran the code myself (7 automated tests; the frontend was also exercised end to end in a simulated browser) and can explain and modify every part of it.
+I used Claude (Anthropic) as a coding assistant for scaffolding the API,  tests,  the frontend, and drafting these notes. I reviewed and ran the code myself and can explain and modify every part of it.
