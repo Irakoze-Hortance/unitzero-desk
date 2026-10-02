@@ -1,0 +1,970 @@
+{
+  "rows": 190,
+  "imported": 0,
+  "skipped": {
+    "already in database": 175,
+    "duplicate within file": 4,
+    "missing episode_id": 1,
+    "missing quality": 1,
+    "invalid quality 'excellent'": 1,
+    "missing duration_seconds": 1,
+    "invalid duration '-5'": 1,
+    "invalid recorded_at 'not a date'": 1,
+    "unknown robot 'arm-99'": 1,
+    "missing robot_id": 1,
+    "malformed row (wrong number of columns)": 2,
+    "invalid duration 'N/A'": 1
+  },
+  "details": [
+    {
+      "line": 2,
+      "episode_id": "EP-00156",
+      "reason": "already in database"
+    },
+    {
+      "line": 3,
+      "episode_id": "EP-00011",
+      "reason": "already in database"
+    },
+    {
+      "line": 4,
+      "episode_id": "EP-00122",
+      "reason": "already in database"
+    },
+    {
+      "line": 5,
+      "episode_id": "EP-00121",
+      "reason": "already in database"
+    },
+    {
+      "line": 6,
+      "episode_id": "EP-00138",
+      "reason": "already in database"
+    },
+    {
+      "line": 7,
+      "episode_id": "EP-00155",
+      "reason": "already in database"
+    },
+    {
+      "line": 8,
+      "episode_id": "EP-00091",
+      "reason": "already in database"
+    },
+    {
+      "line": 9,
+      "episode_id": "EP-00003",
+      "reason": "already in database"
+    },
+    {
+      "line": 10,
+      "episode_id": "EP-00072",
+      "reason": "already in database"
+    },
+    {
+      "line": 11,
+      "episode_id": "EP-00047",
+      "reason": "already in database"
+    },
+    {
+      "line": 12,
+      "episode_id": "EP-00075",
+      "reason": "already in database"
+    },
+    {
+      "line": 13,
+      "episode_id": "EP-00090",
+      "reason": "already in database"
+    },
+    {
+      "line": 14,
+      "episode_id": "EP-00133",
+      "reason": "already in database"
+    },
+    {
+      "line": 15,
+      "episode_id": "EP-00107",
+      "reason": "already in database"
+    },
+    {
+      "line": 16,
+      "episode_id": "EP-00038",
+      "reason": "already in database"
+    },
+    {
+      "line": 17,
+      "episode_id": "EP-00026",
+      "reason": "already in database"
+    },
+    {
+      "line": 18,
+      "episode_id": "EP-00147",
+      "reason": "already in database"
+    },
+    {
+      "line": 19,
+      "episode_id": "EP-00154",
+      "reason": "already in database"
+    },
+    {
+      "line": 20,
+      "episode_id": "EP-00043",
+      "reason": "already in database"
+    },
+    {
+      "line": 21,
+      "episode_id": "EP-00005",
+      "reason": "already in database"
+    },
+    {
+      "line": 22,
+      "episode_id": "EP-00086",
+      "reason": "already in database"
+    },
+    {
+      "line": 23,
+      "episode_id": "EP-00033",
+      "reason": "already in database"
+    },
+    {
+      "line": 24,
+      "episode_id": "EP-00040",
+      "reason": "already in database"
+    },
+    {
+      "line": 25,
+      "episode_id": "EP-00055",
+      "reason": "already in database"
+    },
+    {
+      "line": 26,
+      "episode_id": "EP-00143",
+      "reason": "already in database"
+    },
+    {
+      "line": 27,
+      "episode_id": "EP-00166",
+      "reason": "already in database"
+    },
+    {
+      "line": 28,
+      "episode_id": "EP-00139",
+      "reason": "already in database"
+    },
+    {
+      "line": 29,
+      "episode_id": "EP-00014",
+      "reason": "already in database"
+    },
+    {
+      "line": 30,
+      "episode_id": "EP-00045",
+      "reason": "already in database"
+    },
+    {
+      "line": 31,
+      "episode_id": "EP-00028",
+      "reason": "already in database"
+    },
+    {
+      "line": 32,
+      "episode_id": "EP-00008",
+      "reason": "already in database"
+    },
+    {
+      "line": 33,
+      "episode_id": "EP-00173",
+      "reason": "already in database"
+    },
+    {
+      "line": 34,
+      "episode_id": "EP-00077",
+      "reason": "already in database"
+    },
+    {
+      "line": 35,
+      "episode_id": "EP-00013",
+      "reason": "already in database"
+    },
+    {
+      "line": 36,
+      "episode_id": "EP-00087",
+      "reason": "already in database"
+    },
+    {
+      "line": 37,
+      "episode_id": "EP-00030",
+      "reason": "already in database"
+    },
+    {
+      "line": 38,
+      "episode_id": "EP-00074",
+      "reason": "already in database"
+    },
+    {
+      "line": 39,
+      "episode_id": "EP-00106",
+      "reason": "already in database"
+    },
+    {
+      "line": 40,
+      "episode_id": "EP-00035",
+      "reason": "already in database"
+    },
+    {
+      "line": 41,
+      "episode_id": "EP-00057",
+      "reason": "already in database"
+    },
+    {
+      "line": 42,
+      "episode_id": "EP-00128",
+      "reason": "already in database"
+    },
+    {
+      "line": 43,
+      "episode_id": "EP-00094",
+      "reason": "already in database"
+    },
+    {
+      "line": 44,
+      "episode_id": "EP-00132",
+      "reason": "already in database"
+    },
+    {
+      "line": 45,
+      "episode_id": "EP-00080",
+      "reason": "already in database"
+    },
+    {
+      "line": 46,
+      "episode_id": "EP-00130",
+      "reason": "already in database"
+    },
+    {
+      "line": 47,
+      "episode_id": "EP-00114",
+      "reason": "already in database"
+    },
+    {
+      "line": 48,
+      "episode_id": "EP-00042",
+      "reason": "already in database"
+    },
+    {
+      "line": 49,
+      "episode_id": "EP-00048",
+      "reason": "already in database"
+    },
+    {
+      "line": 50,
+      "episode_id": "EP-00074",
+      "reason": "duplicate within file"
+    },
+    {
+      "line": 51,
+      "episode_id": "EP-00089",
+      "reason": "already in database"
+    },
+    {
+      "line": 52,
+      "episode_id": "EP-00108",
+      "reason": "already in database"
+    },
+    {
+      "line": 53,
+      "episode_id": "EP-00067",
+      "reason": "already in database"
+    },
+    {
+      "line": 54,
+      "episode_id": "EP-00117",
+      "reason": "already in database"
+    },
+    {
+      "line": 55,
+      "episode_id": "EP-00082",
+      "reason": "already in database"
+    },
+    {
+      "line": 56,
+      "episode_id": "EP-00093",
+      "reason": "already in database"
+    },
+    {
+      "line": 57,
+      "episode_id": "EP-00032",
+      "reason": "already in database"
+    },
+    {
+      "line": 58,
+      "episode_id": "EP-00116",
+      "reason": "already in database"
+    },
+    {
+      "line": 59,
+      "episode_id": null,
+      "reason": "missing episode_id"
+    },
+    {
+      "line": 60,
+      "episode_id": "EP-00100",
+      "reason": "already in database"
+    },
+    {
+      "line": 61,
+      "episode_id": "EP-00054",
+      "reason": "already in database"
+    },
+    {
+      "line": 62,
+      "episode_id": "EP-00050",
+      "reason": "already in database"
+    },
+    {
+      "line": 63,
+      "episode_id": "EP-00120",
+      "reason": "already in database"
+    },
+    {
+      "line": 64,
+      "episode_id": "EP-00126",
+      "reason": "already in database"
+    },
+    {
+      "line": 65,
+      "episode_id": "EP-00009",
+      "reason": "already in database"
+    },
+    {
+      "line": 66,
+      "episode_id": "EP-00018",
+      "reason": "already in database"
+    },
+    {
+      "line": 67,
+      "episode_id": "EP-00129",
+      "reason": "already in database"
+    },
+    {
+      "line": 68,
+      "episode_id": "EP-00049",
+      "reason": "already in database"
+    },
+    {
+      "line": 69,
+      "episode_id": "EP-00019",
+      "reason": "missing quality"
+    },
+    {
+      "line": 70,
+      "episode_id": "EP-00158",
+      "reason": "already in database"
+    },
+    {
+      "line": 71,
+      "episode_id": "EP-00177",
+      "reason": "already in database"
+    },
+    {
+      "line": 72,
+      "episode_id": "EP-00060",
+      "reason": "already in database"
+    },
+    {
+      "line": 73,
+      "episode_id": "EP-00061",
+      "reason": "already in database"
+    },
+    {
+      "line": 74,
+      "episode_id": "EP-00053",
+      "reason": "already in database"
+    },
+    {
+      "line": 75,
+      "episode_id": "EP-00099",
+      "reason": "already in database"
+    },
+    {
+      "line": 76,
+      "episode_id": "EP-00142",
+      "reason": "already in database"
+    },
+    {
+      "line": 77,
+      "episode_id": "EP-00037",
+      "reason": "already in database"
+    },
+    {
+      "line": 78,
+      "episode_id": "EP-00105",
+      "reason": "already in database"
+    },
+    {
+      "line": 79,
+      "episode_id": "EP-00020",
+      "reason": "invalid quality 'excellent'"
+    },
+    {
+      "line": 80,
+      "episode_id": "EP-00092",
+      "reason": "already in database"
+    },
+    {
+      "line": 81,
+      "episode_id": "EP-00113",
+      "reason": "already in database"
+    },
+    {
+      "line": 82,
+      "episode_id": "EP-00180",
+      "reason": "already in database"
+    },
+    {
+      "line": 83,
+      "episode_id": "EP-00029",
+      "reason": "already in database"
+    },
+    {
+      "line": 84,
+      "episode_id": "EP-00012",
+      "reason": "already in database"
+    },
+    {
+      "line": 85,
+      "episode_id": "EP-00148",
+      "reason": "already in database"
+    },
+    {
+      "line": 86,
+      "episode_id": "EP-00085",
+      "reason": "already in database"
+    },
+    {
+      "line": 87,
+      "episode_id": "EP-00002",
+      "reason": "already in database"
+    },
+    {
+      "line": 88,
+      "episode_id": "EP-00098",
+      "reason": "already in database"
+    },
+    {
+      "line": 89,
+      "episode_id": "EP-00039",
+      "reason": "already in database"
+    },
+    {
+      "line": 90,
+      "episode_id": "EP-00167",
+      "reason": "already in database"
+    },
+    {
+      "line": 91,
+      "episode_id": "EP-00030",
+      "reason": "duplicate within file"
+    },
+    {
+      "line": 92,
+      "episode_id": "EP-00174",
+      "reason": "already in database"
+    },
+    {
+      "line": 93,
+      "episode_id": "EP-00176",
+      "reason": "already in database"
+    },
+    {
+      "line": 94,
+      "episode_id": "EP-00004",
+      "reason": "already in database"
+    },
+    {
+      "line": 95,
+      "episode_id": "EP-00016",
+      "reason": "missing duration_seconds"
+    },
+    {
+      "line": 96,
+      "episode_id": "EP-00062",
+      "reason": "already in database"
+    },
+    {
+      "line": 97,
+      "episode_id": "EP-00141",
+      "reason": "already in database"
+    },
+    {
+      "line": 98,
+      "episode_id": "EP-00140",
+      "reason": "already in database"
+    },
+    {
+      "line": 99,
+      "episode_id": "EP-00036",
+      "reason": "already in database"
+    },
+    {
+      "line": 100,
+      "episode_id": "EP-00017",
+      "reason": "invalid duration '-5'"
+    },
+    {
+      "line": 101,
+      "episode_id": "EP-00070",
+      "reason": "already in database"
+    },
+    {
+      "line": 102,
+      "episode_id": "EP-00034",
+      "reason": "already in database"
+    },
+    {
+      "line": 103,
+      "episode_id": "EP-00170",
+      "reason": "already in database"
+    },
+    {
+      "line": 104,
+      "episode_id": "EP-00168",
+      "reason": "already in database"
+    },
+    {
+      "line": 105,
+      "episode_id": "EP-00096",
+      "reason": "already in database"
+    },
+    {
+      "line": 106,
+      "episode_id": "EP-00056",
+      "reason": "already in database"
+    },
+    {
+      "line": 107,
+      "episode_id": "EP-00171",
+      "reason": "already in database"
+    },
+    {
+      "line": 108,
+      "episode_id": "EP-00063",
+      "reason": "already in database"
+    },
+    {
+      "line": 109,
+      "episode_id": "EP-00095",
+      "reason": "already in database"
+    },
+    {
+      "line": 110,
+      "episode_id": "EP-00078",
+      "reason": "already in database"
+    },
+    {
+      "line": 111,
+      "episode_id": "EP-00162",
+      "reason": "already in database"
+    },
+    {
+      "line": 112,
+      "episode_id": "EP-00066",
+      "reason": "already in database"
+    },
+    {
+      "line": 113,
+      "episode_id": "EP-00025",
+      "reason": "already in database"
+    },
+    {
+      "line": 114,
+      "episode_id": "EP-00160",
+      "reason": "already in database"
+    },
+    {
+      "line": 115,
+      "episode_id": "EP-00052",
+      "reason": "already in database"
+    },
+    {
+      "line": 116,
+      "episode_id": "EP-00059",
+      "reason": "already in database"
+    },
+    {
+      "line": 117,
+      "episode_id": "EP-00172",
+      "reason": "already in database"
+    },
+    {
+      "line": 118,
+      "episode_id": "EP-00145",
+      "reason": "already in database"
+    },
+    {
+      "line": 119,
+      "episode_id": "EP-00135",
+      "reason": "already in database"
+    },
+    {
+      "line": 120,
+      "episode_id": "EP-00001",
+      "reason": "already in database"
+    },
+    {
+      "line": 121,
+      "episode_id": "EP-00134",
+      "reason": "already in database"
+    },
+    {
+      "line": 122,
+      "episode_id": "EP-00065",
+      "reason": "already in database"
+    },
+    {
+      "line": 123,
+      "episode_id": "EP-00164",
+      "reason": "already in database"
+    },
+    {
+      "line": 124,
+      "episode_id": "EP-00051",
+      "reason": "already in database"
+    },
+    {
+      "line": 125,
+      "episode_id": "EP-00097",
+      "reason": "already in database"
+    },
+    {
+      "line": 126,
+      "episode_id": "EP-00123",
+      "reason": "already in database"
+    },
+    {
+      "line": 127,
+      "episode_id": "EP-00015",
+      "reason": "already in database"
+    },
+    {
+      "line": 128,
+      "episode_id": "EP-00136",
+      "reason": "already in database"
+    },
+    {
+      "line": 129,
+      "episode_id": "EP-00161",
+      "reason": "already in database"
+    },
+    {
+      "line": 130,
+      "episode_id": "EP-00079",
+      "reason": "already in database"
+    },
+    {
+      "line": 131,
+      "episode_id": "EP-00023",
+      "reason": "invalid recorded_at 'not a date'"
+    },
+    {
+      "line": 132,
+      "episode_id": "EP-00115",
+      "reason": "already in database"
+    },
+    {
+      "line": 133,
+      "episode_id": "EP-00010",
+      "reason": "already in database"
+    },
+    {
+      "line": 134,
+      "episode_id": "EP-00101",
+      "reason": "already in database"
+    },
+    {
+      "line": 135,
+      "episode_id": "EP-00179",
+      "reason": "already in database"
+    },
+    {
+      "line": 136,
+      "episode_id": "EP-00169",
+      "reason": "already in database"
+    },
+    {
+      "line": 137,
+      "episode_id": "EP-00104",
+      "reason": "already in database"
+    },
+    {
+      "line": 138,
+      "episode_id": "EP-00083",
+      "reason": "already in database"
+    },
+    {
+      "line": 139,
+      "episode_id": "EP-00041",
+      "reason": "already in database"
+    },
+    {
+      "line": 140,
+      "episode_id": "EP-00027",
+      "reason": "already in database"
+    },
+    {
+      "line": 141,
+      "episode_id": "EP-00163",
+      "reason": "already in database"
+    },
+    {
+      "line": 142,
+      "episode_id": "EP-00084",
+      "reason": "already in database"
+    },
+    {
+      "line": 143,
+      "episode_id": "EP-00103",
+      "reason": "already in database"
+    },
+    {
+      "line": 144,
+      "episode_id": "EP-00088",
+      "reason": "already in database"
+    },
+    {
+      "line": 145,
+      "episode_id": "EP-00150",
+      "reason": "already in database"
+    },
+    {
+      "line": 146,
+      "episode_id": "EP-00159",
+      "reason": "already in database"
+    },
+    {
+      "line": 147,
+      "episode_id": "EP-00124",
+      "reason": "already in database"
+    },
+    {
+      "line": 148,
+      "episode_id": "EP-00110",
+      "reason": "already in database"
+    },
+    {
+      "line": 149,
+      "episode_id": "EP-00046",
+      "reason": "already in database"
+    },
+    {
+      "line": 150,
+      "episode_id": "EP-00071",
+      "reason": "already in database"
+    },
+    {
+      "line": 151,
+      "episode_id": "EP-00112",
+      "reason": "already in database"
+    },
+    {
+      "line": 152,
+      "episode_id": "EP-00131",
+      "reason": "already in database"
+    },
+    {
+      "line": 153,
+      "episode_id": "EP-00119",
+      "reason": "already in database"
+    },
+    {
+      "line": 154,
+      "episode_id": "EP-00044",
+      "reason": "already in database"
+    },
+    {
+      "line": 155,
+      "episode_id": "EP-00165",
+      "reason": "already in database"
+    },
+    {
+      "line": 156,
+      "episode_id": "EP-00157",
+      "reason": "already in database"
+    },
+    {
+      "line": 157,
+      "episode_id": "EP-00068",
+      "reason": "already in database"
+    },
+    {
+      "line": 158,
+      "episode_id": "EP-00006",
+      "reason": "already in database"
+    },
+    {
+      "line": 159,
+      "episode_id": "EP-00149",
+      "reason": "already in database"
+    },
+    {
+      "line": 160,
+      "episode_id": "EP-00146",
+      "reason": "already in database"
+    },
+    {
+      "line": 161,
+      "episode_id": "EP-00058",
+      "reason": "already in database"
+    },
+    {
+      "line": 162,
+      "episode_id": "EP-00024",
+      "reason": "unknown robot 'arm-99'"
+    },
+    {
+      "line": 163,
+      "episode_id": "EP-00007",
+      "reason": "already in database"
+    },
+    {
+      "line": 164,
+      "episode_id": "EP-00064",
+      "reason": "already in database"
+    },
+    {
+      "line": 165,
+      "episode_id": "EP-00153",
+      "reason": "already in database"
+    },
+    {
+      "line": 166,
+      "episode_id": "EP-00081",
+      "reason": "already in database"
+    },
+    {
+      "line": 167,
+      "episode_id": "EP-00109",
+      "reason": "already in database"
+    },
+    {
+      "line": 168,
+      "episode_id": "EP-00011",
+      "reason": "duplicate within file"
+    },
+    {
+      "line": 169,
+      "episode_id": "EP-00152",
+      "reason": "already in database"
+    },
+    {
+      "line": 170,
+      "episode_id": "EP-00021",
+      "reason": "missing robot_id"
+    },
+    {
+      "line": 171,
+      "episode_id": "EP-00178",
+      "reason": "already in database"
+    },
+    {
+      "line": 172,
+      "episode_id": "EP-00125",
+      "reason": "already in database"
+    },
+    {
+      "line": 173,
+      "episode_id": "EP-00137",
+      "reason": "already in database"
+    },
+    {
+      "line": 174,
+      "episode_id": "EP-00127",
+      "reason": "already in database"
+    },
+    {
+      "line": 175,
+      "episode_id": "EP-00069",
+      "reason": "already in database"
+    },
+    {
+      "line": 176,
+      "episode_id": "EP-00102",
+      "reason": "already in database"
+    },
+    {
+      "line": 177,
+      "episode_id": "EP-00076",
+      "reason": "already in database"
+    },
+    {
+      "line": 178,
+      "episode_id": "EP-00175",
+      "reason": "already in database"
+    },
+    {
+      "line": 179,
+      "episode_id": "EP-00118",
+      "reason": "already in database"
+    },
+    {
+      "line": 180,
+      "episode_id": "EP-00031",
+      "reason": "already in database"
+    },
+    {
+      "line": 181,
+      "episode_id": "EP-00111",
+      "reason": "already in database"
+    },
+    {
+      "line": 182,
+      "episode_id": "EP-00073",
+      "reason": "already in database"
+    },
+    {
+      "line": 183,
+      "episode_id": "EP-00144",
+      "reason": "already in database"
+    },
+    {
+      "line": 184,
+      "episode_id": "EP-00151",
+      "reason": "already in database"
+    },
+    {
+      "line": 185,
+      "episode_id": null,
+      "reason": "malformed row (wrong number of columns)"
+    },
+    {
+      "line": 186,
+      "episode_id": "EP-90002",
+      "reason": "already in database"
+    },
+    {
+      "line": 187,
+      "episode_id": "EP-90003",
+      "reason": "invalid duration 'N/A'"
+    },
+    {
+      "line": 188,
+      "episode_id": "EP-90004",
+      "reason": "already in database"
+    },
+    {
+      "line": 189,
+      "episode_id": "EP-00003",
+      "reason": "duplicate within file"
+    },
+    {
+      "line": 190,
+      "episode_id": "EP-90005",
+      "reason": "already in database"
+    },
+    {
+      "line": 192,
+      "episode_id": null,
+      "reason": "malformed row (wrong number of columns)"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+:root{--bg:#f3f4f8;--card:#fff;--ink:#1e2430;--muted:#6b7280;--line:#e5e7eb;--brand:#4f46e5;--brand-d:#4338ca;--bad:#dc2626}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.45 system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink)}
+header{display:flex;gap:12px;align-items:center;padding:12px 24px;background:#111827;color:#fff}
+header b{flex:1;font-size:17px;letter-spacing:.2px}
+header #who{color:#c7cbd6;font-size:14px}
+header .ghost{color:#fff;border-color:#4b5563;background:transparent}
+main{max-width:1000px;margin:24px auto;padding:0 16px}
+section{background:var(--card);border-radius:12px;padding:18px;margin-bottom:18px;box-shadow:0 1px 3px rgba(0,0,0,.08);overflow-x:auto}
+h2{margin:0 0 12px;font-size:16px}
+form{display:flex;flex-wrap:wrap;gap:8px}
+input,select{font:inherit;padding:8px 10px;border:1px solid #d1d5db;border-radius:8px;background:#fff;min-width:0}
+input:focus,select:focus{outline:2px solid var(--brand);outline-offset:-1px;border-color:transparent}
+button{font:inherit;padding:8px 14px;border:1px solid var(--brand);border-radius:8px;background:var(--brand);color:#fff;cursor:pointer}
+button:hover{background:var(--brand-d)}
+button.ghost{background:#fff;color:var(--brand)}button.ghost:hover{background:#eef2ff}
+button.danger{background:var(--bad);border-color:var(--bad)}button.danger:hover{background:#b91c1c}
+table{width:100%;border-collapse:collapse;margin-top:8px}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+td,th{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:middle}
+td button{padding:5px 10px;margin-right:4px}
+tbody tr:hover,tr:hover td{background:#fafafa}tr.sel td{background:#eef2ff}
+.tag{padding:3px 10px;border-radius:999px;font-size:12px;font-weight:600;background:#e5e7eb;color:#374151}
+.s-submitted{background:#dbeafe;color:#1e40af}.s-in_progress{background:#fef3c7;color:#92400e}
+.s-delivered{background:#e0e7ff;color:#3730a3}.s-accepted{background:#dcfce7;color:#166534}
+.s-rejected{background:#fee2e2;color:#991b1b}
+#msg{position:fixed;top:16px;cursor:pointer;z-index:10;left:50%;transform:translateX(-50%);padding:10px 16px;border-radius:8px;color:#fff;display:none;max-width:90%;box-shadow:0 4px 12px rgba(0,0,0,.2)}
+#msg.err{background:var(--bad)}#msg.ok{background:#15803d}
+@media(max-width:600px){header{padding:10px 14px}main{margin:14px auto}}
